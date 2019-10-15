@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/fiqram" >
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@drawable/fiqram"
+                android:contentDescription="@string/app_name" />
+
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="80dp" >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="160dp"
+                    android:text="Muhajir Panji Ansyori"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="0dp"
+                    android:src="@drawable/background" />
+            </FrameLayout>
+
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_heart"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="25dp"
+                android:drawableStart="@drawable/ic_favorite_black_24dp"
+                android:drawablePadding="20dp"
+                android:text="Like"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="110dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:background="@android:color/black"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_favorite_black_24dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="360dp"/>
+
+            <TextView
+                android:id="@+id/tv_comment"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Comment"
+                android:textSize="30sp"
+                android:drawableStart="@drawable/ic_favorite_black_24dp"
+                android:drawablePadding="20dp"
+                android:layout_marginTop="125dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="185dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:background="@android:color/black"
+                android:contentDescription="@string/app_name" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_favorite_black_24dp"
+                android:layout_marginTop="125dp"
+                android:layout_marginStart="360dp"/>
+
+
+            <TextView
+                android:id="@+id/tv_chat"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Edit"
+                android:textSize="30sp"
+                android:drawableStart="@drawable/ic_favorite_black_24dp"
+                android:drawablePadding="20dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"/>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="260dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:background="@android:color/black"
+                android:contentDescription="@string/app_name" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_favorite_black_24dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginStart="360dp"/>
+
+            <TextView
+                android:id="@+id/tv_set"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Settings"
+                android:textSize="30sp"
+                android:drawableStart="@drawable/ic_favorite_black_24dp"
+                android:drawablePadding="20dp"
+                android:layout_marginTop="280dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                android:drawableTop="@drawable/ic_favorite_black_24dp"
+                android:layout_marginTop="360dp"
+                android:layout_marginStart="50dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                android:drawableTop="@drawable/ic_favorite_black_24dp"
+                android:layout_marginTop="360dp"
+                android:layout_marginStart="180dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="People"
+                android:drawableTop="@drawable/ic_favorite_black_24dp"
+                android:layout_marginTop="360dp"
+                android:layout_marginLeft="300dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="350dp"
+                android:background="@drawable/background"
+                android:contentDescription="@string/app_name" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
